@@ -1,0 +1,13 @@
+Program Start
+Call function (name isPal)
+array = isPal
+Create a for loop 
+var left = 0
+if left is less than array lenght divided by 2, proceed to next step
+var right = arr.length-1-left
+create an if statement 
+check that array left does not equal array right --> return "Not a pal-indrome!"
+Once left is not less than arr.length divided by 2 --> return "Pal-indrome!"
+Run line 45 after function isPal is complete
+set var result1 to isPal and return result1
+set var result2 to isPal and return result2

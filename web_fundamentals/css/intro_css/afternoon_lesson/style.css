@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* display: inline; can share horizontal space. Secret feature* takes up as much space as the content */
+
+/* h1{ */
+    /* display: inline; */
+/* } */
+
+
+/* display: inline-block can share horizontal space together and you can define the size */
+
+h1{
+    display: inline-block;
+    width: 500px;
+    
+}
+
+/* we use pixel images alot but we can use percentages ie width: 50%; */
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: cornflowerblue;
+}

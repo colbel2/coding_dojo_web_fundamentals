@@ -1,0 +1,21 @@
+*{
+    background-color: blue;
+
+}
+#vertbox{
+    background-color: yellow;
+    height: 55vh;
+    width: 100px;
+    margin-left: 25%;
+}
+#horibox{
+    background-color: yellow;
+    height: 100px;
+    width: 100vw;
+}  
+#vertbox2{
+    background-color: yellow;
+    height: 100vh;
+    width: 100px;
+    margin-left: 25%;
+}

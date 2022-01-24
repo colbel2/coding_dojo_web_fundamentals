@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.flexed {
+    display: flex;
+}
+
+header {
+    background-color: black;
+    display: flex; 
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+.title {
+    padding: 15px;
+}
+
+.just {
+    color: white;
+}
+
+.dessert {
+    color: orange;
+}
+
+.join_login {
+    display: flex;
+    color: azure;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+#join {
+    background-color: orange;
+    color: black;
+    box-shadow: 3px 3px black;
+    padding:2.5px 5px ;
+}
+
+#login {
+    background-color: blue;
+    color: azure;
+    box-shadow: 3px 3px black;
+    padding: 5px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+li {
+    list-style: none;
+}
+.search {
+    background-color: tan;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    height: 200px;
+    
+}
+
+input {
+    margin-left: 250px;
+    border: solid black;
+    padding: 5px 20px;
+}
+
+#go_btn {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 300px;
+}
+
+.images_search {
+    margin-right: 50px;
+    padding: 15px;
+}
+
+.treat_search {
+    display: flex;
+    color: azure;
+    padding: 10px;
+    justify-content: space-evenly;
+    width: 1500px;
+}
+
+.treats {
+    height: 150px;
+
+}
+
+h4 {
+    color: black;
+    font-size: 15pt;
+}
+
+.container{
+    background-color: white;
+    margin: 0px auto;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.left_side {
+    background-color: lightgray;
+    width: 1325px;
+
+}
+
+.header2 {
+    display: flex;
+    height: 150px;
+    width: 1300px;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    font-size: 20pt;
+}
+
+.recipe_day {
+    padding: 100px;
+}
+
+
+#orange_tart {
+    width: 1300px;
+}
+
+.info {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.like_btn {
+    display: flex;
+    padding: 10px;
+    justify-content: end;
+}
+
+#heart {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px; 
+    border: none;
+}
+
+.heart_image {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    
+}
+
+.full {
+    padding: 15px;
+    margin-left: 500px;
+    font-size: 25pt;
+}
+
+a{
+    color: blue
+}
+
+.right_side {
+    background-color: white;
+    height: 1000px;
+    width: 850px;
+}
+
+.rec {
+    padding: 15px;
+    font-size: 25pt;
+}
+
+#macarons {
+    width: 800px;
+    height: 400px;
+    padding: 50px;
+}
+
+#creme {
+    width: 800px;
+    height: 400px;
+    padding: 50px;
+}
+
+.wheart_image {
+    width: 50px;
+    height: 50px;
+    background-color: white
+}
+
+h5 {
+    font-size: 25pt;
+}

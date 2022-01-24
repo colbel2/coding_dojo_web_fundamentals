@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    min-height: 55px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.col {
+    background-color: aquamarine;
+    color: white;
+    padding: 50px;
+    flex: 1;
+}
+
+.col-2 {
+    background-color: aquamarine;
+    color: white;
+    flex: 2;
+
+}
+
+.col-3 {
+    background-color: aquamarine;
+    color: white;
+    flex: 3;
+}

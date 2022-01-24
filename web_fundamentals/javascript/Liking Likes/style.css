@@ -1,0 +1,41 @@
+* {
+    background-color: white;
+}
+
+.flexed {
+    display: flex;
+}
+
+.container {
+    border: solid black;
+    min-height: 200px;
+    width: 600px;
+    justify-content: space-around;
+}
+
+.main {
+    min-height: 100px;
+    width: 600px;
+    justify-content:space-around;
+}
+
+.left {
+    
+}
+
+.right {
+    align-items: right;
+    padding: 35px;
+}
+
+#button {
+    padding: 10px 20px;
+    margin-left: 25px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 5px 7px;
+}
+
+.text {
+    padding: 20px;
+}

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+header {
+    background-color: gray;
+    min-height: 100px;
+    font-size: 25pt;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    min-height: 30px;
+    width: 350px;
+}
+
+.login_btn {
+    background-color: blue;
+    color: azure;
+    box-shadow: 3px 3px black;
+    padding: 5px 10px;
+}
+
+.container {
+    width: 2560px;
+    min-height: 500px;
+    background-color: white;
+}
+
+.main {
+    background-color: white;
+    color: black;
+    flex: 2;
+    min-height: 375px;
+    border: solid black;
+}
+
+.left_side {
+    text-align: center;
+    flex: 1;
+}
+
+h1 {
+    font-size: 25pt;
+    text-align: top;
+    padding: 25px;
+}
+
+h2 {
+    padding: 5px;
+}
+
+h3 {
+    padding: 5px;
+    font-style: italic;
+}
+
+.main_btn{
+    padding: 10px 20px;
+    margin-top: 100px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 5px 2px;
+}
+
+.right_side {
+    text-align: left;
+    flex: 2;
+    style white-space:;
+}
+
+p {
+    align-items: center;
+    font-size: 20pt;
+}
+
+.link {
+    font-size: 20pt;
+}
+
+.side {
+    background-color: white;
+    color: black;
+    font-size: 35pt;
+    flex: 1;
+    min-height: 300px;
+    margin-bottom: 73px;
+    margin-bottom: 75px;
+    border: solid black;
+    
+}
+
+.side_btn {
+    background-color: green;
+    color: black;
+    padding: 15px 65px;
+    align-items: center;
+    box-shadow: 5px 2px;
+    
+}
+
+.container2 {
+    width: 2560px;
+    min-height:;
+    background-color: white;
+}
+
+.sub_main {
+    background-color: white;
+    color: black;
+    min-height: 375px;
+    flex: 2;
+    margin-bottom: 75px;
+    border: solid black;
+}
+.blank {
+    background-color: white;
+    color: black;
+    flex: 1;
+    min-height: 300px;
+    margin-bottom: 73px;
+    
+}

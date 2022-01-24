@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>span>JustDessert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "flexed">
+        <h1 class = "title" ><span class="just">Just</span><span class="dessert">Dessert</span></h1>
+        <ul class = "join_login">
+            <li><button onclick="hide(this)" id = "join">Join</button></li>
+            <li> <button id = "login">Login</button></li>
+        </ul>
+    </header>    
+
+    <div class = "search">
+        <div class="search_main">
+            <input  id = "search" type="text" placeholder = "Search" >
+            <button onclick="alertMe()" id = "go_btn">GO</button>
+            </div>
+        <div class="images_search">
+            <ul class="treat_search">
+            <li><img class = "treats" src="cake.png" alt="cake"><h4>Cakes</h4></li>
+            <li><img class = "treats" src="ice-cream.png" alt="ice cream"><h4>Ice Cream</h4></li>
+            <li><img class = "treats" src="cookie.png" alt="cookie"><h4>Cookies</h4></li>
+            <li><img class = "treats" src="pie.png" alt="pie"><h4>Pies</h4></li>
+            </ul>
+        
+        </div>
+    </div>
+
+    <div class="container flexed">
+        <div class="left_side">
+        
+            <div class="header2">
+                <h1 class = "recipe_day">Recipe of the Day</h1>
+            </div>
+            <div class="main_img">
+                <img id = "orange_tart" src="orange-tart.jpg" alt="orange-tart">
+            </div>
+            <div class="info">
+                <h2>Orange Tea Jelly Tart
+                    <br>by: <a href="yuripiano">yuripiano</a>
+                </h2>
+            
+                <ul class="like_btn">
+                    <li>
+                
+                        <button onclick="changeText1()" id = "heart">
+                            <img class = "heart_image" src="heart.png" alt="heart_button">
+                        </button>
+                    </li>
+                    <li><h5 id="heart_likes1">0</h5></li>
+                </ul>
+                
+                
+                </div>
+                <h3 class="full" > <a href="See Full Recipe">See Full Recipe</a> </h3>
+            </div>
+            
+            <div class="right_side">
+                <h2 class="rec">Recommended For You:</h2>
+                <div class="sub_content">
+                    <img id="macarons" src="macarons.jpg" alt="macarons">
+                    <h2>Macarons
+                        <br> by <a href="EmilieW">EmilieW</a>
+                    </h2>
+                    <ul class="like_btn">
+                        <li>    
+                        <button onclick="changeText2()" id = "heart">
+                                <img class="wheart_image" src="heart.png" alt="heart_button">
+                            </button>
+                            
+                        </li>
+                        <li><h5 id ="heart_likes2">0</h5></li>
+                </ul>
+
+
+                </div>
+                <div class="subcontent">
+                    <img id="creme" src="creme-brulee.jpg" alt="creme-brulee">
+                    <h2>Creme creme-brulee
+                        <br> by <a href="MarisaG">MarisaG</a>
+                    </h2>
+                    <ul class="like_btn">
+                        <li>    
+                            <button id = "heart">
+                                <img onclick="changeText();" class="wheart_image"  id="button" src="heart.png" alt="heart_button">
+                            </button>
+                            
+                        </li>
+                        <li><h5 id = "heart_likes">0</h5></li>
+                </ul>
+                </div>
+            </div>    
+        </div>
+
+
+
+
+<script src="script.js"></script>    
+</body>
+</html>
